@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    width: 600px;
+    height: 300px;
+    grid-template-columns: repeat(1fr,7);
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+.white {
+    background-color: lightyellow; 
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+.btn {
+    height; auto;
+}
+
+.display {
+    grid-row-start: span 7;
+}
