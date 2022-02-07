@@ -4,9 +4,11 @@
 
 .container {
     display: grid;
-    width: 600px;
-    height: 300px;
-    grid-template-columns: repeat(1fr,7);
+    background-color: white;
+    width: 1400px;
+    height: 800px;
+    grid-template-columns: repeat(7,1fr);
+    gap: 10px;
 }
 
 .grey {
@@ -19,12 +21,27 @@
 
 .blue{
     background-color: cornflowerblue;
-}
-
-.btn {
-    height; auto;
+    color: white
 }
 
 .display {
-    grid-row-start: span 7;
+    background-color: whitesmoke;
+    grid-row-start: span 2;
+    grid-column-start: span 7;
+    color: black;
+    font-size: 72px;
+    position: relative;
+}
+
+.btn {
+    font-size: 24px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.result {
+    text-align: right;
+    position:absolute;
+    right: 0px;
+    bottom: -70px;
 }
